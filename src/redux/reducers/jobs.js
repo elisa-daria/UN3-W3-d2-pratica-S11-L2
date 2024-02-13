@@ -2,6 +2,7 @@ import { AVIABLE_JOBS } from "../actions";
 
 const initialState = {
   searchResults: [],
+  query: "",
 };
 const jobsReducer = (state = initialState, action) => {
   switch (action.type) {

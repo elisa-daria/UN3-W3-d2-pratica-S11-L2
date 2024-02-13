@@ -30,6 +30,7 @@ const MainSearch = () => {
           <Form
             onSubmit={(e) => {
               handleSubmit(e);
+              setQuery("");
             }}
           >
             <Form.Control
